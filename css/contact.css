@@ -1,0 +1,37 @@
+.contact-banner img{
+	width: 100%;
+	margin-top: 60px;
+}
+
+.contact-map{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.contact-list{
+    margin-top: 100px;
+    position: relative;
+}
+.contact-list .pic{
+    position: absolute;
+    top: 0;
+    
+}
+.contact-list li{
+    width: 230px;
+    background: #C9A16D;
+    margin: 0 20px;
+    padding: 80px 60px 60px;
+    float: left;
+    font-size: 16px;
+    line-height: 35px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
