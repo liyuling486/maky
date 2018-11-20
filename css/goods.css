@@ -1,0 +1,123 @@
+.carousel{
+    padding-top: 50px;
+}
+
+.classify{
+    margin-top: 40px;
+}
+
+.classify h3{
+    color: #382722;
+    font-size: 18px;
+}
+
+.classify p{
+    color: #c9a16d;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.classify .search{
+    width: 305px;
+    height: 28px;
+    border: 2px solid #dfc7a7;
+    border-radius: 10px;
+}
+
+.classify .search input{
+    outline: none;
+    border: 0;
+    margin-left: 6px;
+    line-height: 26px;
+    color: #C9A16D;
+}
+
+.classify .search input::-moz-placeholder { 
+    color: #C9A16D;
+}
+
+.classify .search input::-webkit-input-placeholder {
+     color:#C9A16D;
+}
+
+.classify .search input:-ms-input-placeholder { 
+    color:#C9A16D; 
+}
+
+.classify .search button{
+    width: 20px;
+    height: 20px;
+    border: 0;
+    margin-top: 4px;
+    margin-right: 4px;
+    background: url(../images/goods-search.jpg) no-repeat;
+}
+
+.classify .class-nav{
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+.classify .class-nav li{
+    width: 140px;
+    float: left;
+    font-size: 16px;
+    color: #392722;
+}
+
+.classify .class-nav li.act{
+    color:#C9A16D; 
+}
+
+.classify .class-nav img{
+    vertical-align: -5px;
+}
+
+.container{
+    overflow: hidden;
+}
+
+.container li{
+    width: 220px;
+    height: 290px;
+    float: left;
+    margin: 0 30px 40px;
+    text-align: center;
+    border-bottom: 2px solid #D2B084;
+    font-size: 16px;
+    color: #D2B084;
+    font-weight: bold;
+}
+
+.container li p{
+    margin-top: 20px;
+}
+
+.container li img{
+    width: 100%;
+    height: 240px;
+}
+
+.page {
+    width: 100px;
+    margin: 0 auto;
+    color: #D2B084;
+    text-align: center;
+    line-height: 20px;
+}
+
+.page div{
+    width: 30px;
+    height: 20px;
+    border-radius: 6px;
+    border: 1px solid #D2B084;
+    margin: 0 4px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+

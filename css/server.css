@@ -1,0 +1,105 @@
+.server-banner img{
+	width: 100%;
+	margin-top: 60px;
+}
+
+.server-content{
+	width: 1130px;
+	margin: 150px auto 0;
+}
+.server-content .title{
+	margin: 20px 0;
+}
+.server-content .container li{
+	width: 50%;
+	/*height: 274px;*/
+	float: left;
+	overflow: hidden;
+}
+
+.server-content .title .left{
+	width: 160px;
+	padding-right: 10px;
+	text-align: right;
+	line-height: 30px;
+	border-right: 2px solid #7A6049;
+	margin-right: 10px;
+}
+
+.server-content .title .left .ch{
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.server-content .title .left .en{
+	font-size: 16px;
+	color: #c9a16d;
+}
+
+.server-content .title .info{
+	font-size: 16px;
+	line-height: 58px;
+	color: #333;
+}
+
+
+.server-content .container img{
+	width: 50%;
+}
+.server-content .container .box{
+	width: 50%;
+	height: 226px;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.server-content .container .box .tit{
+	font-size: 18px;
+	color: #c9a16d;
+	line-height: 30px;
+}
+
+.server-content .container .box .line{
+	width: 20px;
+	height: 2px;
+	background: #c9a16d;
+	margin: 20px auto;
+}
+
+.server-content .container .box span{
+	font-size: 16px;
+	line-height: 30px;
+	color: #333;
+}
+
+.server-content .container .act .box{
+	background: #C9A16D;
+}
+.server-content .container .act .box p, .server-content .container .act .box span{
+	color: #fff;
+}
+.server-content .container .act .box .line{
+	background: #fff;
+}
+
+.server-content .partner .text{
+	font-size: 16px;
+	line-height: 30px;
+	color: #333;
+	text-indent: 2em;
+	margin: 40px 0;
+}
+
+.server-content .purchase .text{
+	margin-left: 50px;
+	color: #333;
+	font-size: 18px;
+	line-height: 24px;
+}
+.server-content .purchase .text img{
+	margin: 10px 0;
+	width: 100px;
+}
+.server-content .purchase .text .tit{
+	font-size: 16px;
+}

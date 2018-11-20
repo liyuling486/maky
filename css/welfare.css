@@ -1,0 +1,118 @@
+.brands-banner img{
+	width: 100%;
+	margin-top: 60px;
+}
+
+.welfare-content{
+	width: 1100px;
+	border: 3px solid #C9A16D;
+	background: #FEEDD3;
+	margin: 150px auto 0;
+}
+
+.welfare-content article{
+	width: 41%;
+	padding: 20px 50px;
+	text-align: center;
+}
+
+.welfare-content .title{
+	font-size: 20px;
+	line-height: 26px;
+	color: #C9A16D;
+	font-family: 宋体;
+	font-weight: 600;
+}
+
+.welfare-content h3{
+	width: 66%;
+	font-size: 20px;
+	color: #c9a16d;
+	margin: 10px auto;
+	line-height: 24px;
+	border-top: 1px solid #c9a16d;
+	border-bottom: 1px solid #c9a16d;
+	padding: 8px 0;
+}
+
+.welfare-content .text{
+	font-size: 16px;
+	line-height: 28px;
+	color: #c9a16d;
+	text-indent: 2em;
+}
+
+.welfare-content .pic img{
+	margin-top: 2px;
+}
+
+.welfare-content .item{
+	display: none;
+}
+
+.welfare-nav{
+	width: 1100px;
+	margin: 30px auto 0;
+	color: #fff;
+	display: flex;;
+	justify-content: space-between;
+}
+
+.welfare-nav li{
+	width: 180px;
+	background: #C9A16D;
+	padding-top: 14px;
+	position: relative;
+	cursor: pointer;
+}
+
+.welfare-nav .circle{
+	width: 14px;
+	height: 14px;
+	border-radius: 14px;
+	border: 2px solid #fff;
+	margin: 0 auto;
+}
+
+.welfare-nav .ch{
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.welfare-nav .en{
+	font-size: 18px;
+	line-height: 26px;
+	text-align: center;
+	font-weight: 600;
+}
+
+.welfare-nav .top-line{
+	width: 3px;
+	height: 14px;
+	background: #C9A16D;
+	position: absolute;
+	top: -14px;
+	left: 88px;
+	display: none;
+}
+
+.welfare-nav .bottom-line{
+	width: 180px;
+	height: 3px;
+	background: #C9A16D;
+	position: absolute;
+	bottom: -8px;
+	display: none;
+}
+
+.welfare-nav li.act .top-line{
+	display: block;
+}
+
+.welfare-nav li.act .bottom-line{
+	display: block;
+}
+
+
+

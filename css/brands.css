@@ -1,0 +1,104 @@
+.brands-banner img{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.locate{
+    width: 900px;
+    margin: 0 auto;
+    padding-right: 300px;
+}
+
+.locate .left{
+    font-size: 18px;
+    line-height: 80px;
+    color: #333;
+}
+
+.locate .right{
+    font-style: italic;
+    color: #c9a16d;
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+main .info{
+    width: 900px;
+}
+
+main .info h3{
+    color: #ccc;
+    font-size: 32px;
+}
+
+main .info .title{
+    font-size: 20px;
+    color: #c9a16d;
+    margin: 30px 0;
+}
+
+main .info p{
+    font-size: 14px;
+    line-height: 30px;
+    text-indent: 2em;
+    color: #666;
+}
+
+main .info img{
+    width: 100%;
+}
+
+main .info li{
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 600;
+    font-family: 宋体;
+    color: #666;
+}
+
+main .info li span{
+    color: #c9a16d;
+    font-size: 18px;
+    font-family: 微软雅黑;
+    font-weight: normal;
+}
+
+
+main .art-nav li{
+    width: 240px;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 10px;
+    color: #fff;
+    margin: 10px;
+    background: #c9a16d;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+main .art-nav img{
+    float: left;
+    margin-top: 6px;
+    display: none;
+}
+
+main .art-nav .act img{
+    display: block;
+}
+
+main .art-nav .text{
+    width: 190px;
+    text-align: center;
+    padding-right: 20px;
+}
+
+main .art-nav .en{
+    color: #e5d2b9;
+    font-size: 16px;
+}
+
+
+
+
+
