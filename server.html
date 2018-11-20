@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/server.css">
+	<link rel="stylesheet" href="css/server.css">
+	<link rel="stylesheet" href="css/aos.css" />
+    <script src="js/aos.js"></script>
     <title>企业服务</title>
 </head>
 <body>
@@ -42,7 +44,7 @@
 	</div>
 	<ul class="container clearfix">
 		<li>
-			<img src="images/server-con1.jpg" class="fl">
+			<img src="images/server-con1.jpg" class="fl" aos="flip-left">
 			<div class="box fl">
 				<p class="tit">企业DIY</p>
 				<div class="line"></div>
@@ -54,7 +56,7 @@
 			</div>
 		</li>
 		<li class="act">
-			<img src="images/server-con2.jpg" class="fl">
+			<img src="images/server-con2.jpg" class="fl" aos="flip-left">
 			<div class="box fl">
 				<p class="tit">免费烘焙老师</p>
 				<div class="line"></div>
@@ -74,7 +76,7 @@
 					预约送货上门
 				</span>
 			</div>
-			<img src="images/server-con3.jpg" class="fl">
+			<img src="images/server-con3.jpg" class="fl" aos="flip-left">
 		</li>
 		<li>
 			<div class="box fl">
@@ -86,7 +88,7 @@
 					丰富员工生活
 				</span>
 			</div>
-			<img src="images/server-con4.jpg" class="fl">
+			<img src="images/server-con4.jpg" class="fl" aos="flip-left">
 		</li>
 	</ul>
 	<div class="partner">
@@ -120,22 +122,7 @@
 			</div>
 		</div>
 	</div>
-
-
-
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
 
 <!-- footer -->
 <div class="footer">
@@ -166,6 +153,11 @@
         Copyright © www.maky.com.cn 陕ICP备09003989号
     </p>
 </footer>
-
+<script>
+    AOS.init({
+        ease:'ease-out-back',
+        duration:1000
+    });
+</script>
 </body>
 </html>
