@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/welfare.css">
+	<link rel="stylesheet" href="css/welfare.css">
+    <link rel="stylesheet" href="css/aos.css" /> 
+    <script src="js/aos.js"></script>
+
     <title>米琪公益</title>
 </head>
 <body>
@@ -42,7 +45,7 @@
 			<p class="text">2015年四川省第三届青年创意设计大赛，暨天府宝岛工业设计大赛分赛——第一届亲子创意烘焙大赛于6月13-14日圆满举行。成都米旗食品有限责任公司成功与成都三幼树基学前教育有限公司首次建立合作关系。成都米旗精湛的裱花技术、美味的水果蛋糕为本次创意大赛的成功举办增添了色彩。本次活动不仅让孩子与家长有了一次特别的烘焙体验，也给每个孩子的童年留下了宝贵的记忆。</p>
 		</article>
 		<div class="pic">
-			<img src="images/welfare-pic1.jpg" alt="">
+			<img src="images/welfare-pic1.jpg" alt="" aos = "fade-right">
 			<img src="images/welfare-pic2.jpg" alt="">
 			<img src="images/welfare-pic3.jpg" alt="">
 		</div>
@@ -216,6 +219,12 @@ for (let i=0;i<navLi.length;i++){
         Copyright © www.maky.com.cn 陕ICP备09003989号
     </p>
 </footer>
+<script>		
+    AOS.init({//初始化代码必须放在网页底部,否则无法使用.
+        ease:'ease-out-back',
+        duration:1000
+    });	
+</script>
 
 </body>
 </html>
